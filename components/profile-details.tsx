@@ -10,8 +10,6 @@ const ProfileDetails = () => {
 
   return (
     <View className="flex flex-col w-screen h-screen">
-      
-      {/* Parte superior */}
       <View className="flex justify-center items-center h-1/2 w-screen">
         <Image
           source={require("../assets/images/icon.png")}
@@ -47,8 +45,6 @@ const ProfileDetails = () => {
           />
         </View>
       </View>
-
-      {/* Parte inferior */}
       <View className="flex justify-start items-center bg-slate-900 h-1/2">
         <View className="flex-row justify-around items-center space-x-4 w-full px-8 mt-4">
           <IconButoon2
@@ -76,8 +72,6 @@ const ProfileDetails = () => {
             color="blue"
           />
         </View>
-
-        {/* Aquí el espacio para escribir */}
         <TextInput
           value={inputValue}
           onChangeText={setInputValue}
