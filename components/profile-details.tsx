@@ -6,7 +6,7 @@ import IconButoon from "./ui/iconButoon";
 import IconButoon2 from "./ui/iconButoon2";
 
 const ProfileDetails = () => {
-  const [inputValue, setInputValue] = useState("");
+  const [Ingreso, Texto] = useState("");
 
   return (
     <View className="flex flex-col w-screen h-screen">
@@ -73,8 +73,8 @@ const ProfileDetails = () => {
           />
         </View>
         <TextInput
-          value={inputValue}
-          onChangeText={setInputValue}
+          value={Ingreso}
+          onChangeText={Texto}
           placeholder="Escribe aquí..."
           placeholderTextColor="#aaa"
           className="bg-white text-black rounded-lg p-3 m-4 w-11/12"
